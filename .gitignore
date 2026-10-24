@@ -1,0 +1,41 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Swift Package Manager and Xcode local state
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Build output and reports
+build/
+dist/
+output/
+*.app/
+*.dmg
+*.pkg
+*.zip
+*.dSYM/
+*.xcresult/
+*.profraw
+*.profdata
+*.log
+*.tmp
+
+# Local data, backups, credentials and signing material
+tasks.json
+Backups/
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
